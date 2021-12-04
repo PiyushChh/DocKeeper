@@ -1,6 +1,6 @@
 # Dockeeper project
 
-*This project is currently in beta and hosted at: [studytracker.tech](https://studytracker.tech). See the [version 1 roadmap here](https://github.com/faraday-academy/curriculum-app/projects/1).*
+*This project is currently in beta and hosted at: [http://test-deploy-walkover.herokuapp.com/](http://test-deploy-walkover.herokuapp.com/)
 
 This app allows users to work as a team and store documents in their workspaces.They can then keep track of their progress,upload files and download files.
 
@@ -31,7 +31,7 @@ This app allows users to work as a team and store documents in their workspaces.
 1. HTML
 2. CSS
 3. React JS
-4. DB----Enter here
+4. MySQL(Database)
 5. AWS/Heroku (hosting)
 
 ## Mockups
@@ -59,10 +59,10 @@ Color Palette:
 ## Routes
 
 * / --> Home Page/Landing Page
-* curricula --> shows all curricula
-* curricula/create --> shows form to create
-* curricula/id --> shows single curriculum
-* curricula/id/update --> update single curriculum
+* /signin --> Sign in Page
+* /signup --> Sign Up Page
+* team/tea_id#comehere --> Inside the workspace
+
 
 ## Schema
 
